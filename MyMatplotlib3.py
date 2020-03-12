@@ -48,10 +48,10 @@ y_values = [x**2 for x in x_values]
 plt.scatter(x_values,y_values,s=10)
 
 #画第3个曲线
-
 input_values = [5,10,30,40,50]  #图形输入值
 squares = [1,400,9000,6000,1250]    #图形输出值
 plt.plot(input_values,squares,linewidth=2)
 
 
 plt.show()
+pause()
